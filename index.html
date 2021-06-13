@@ -9,16 +9,16 @@
 </head>
 <body>
     <div id="error"></div>
-    <form action="/" method="GET">
+    <form id="form" action="/" method="GET">
         <div>
             <label for="name">Name</label>
-            <input id="name" name="name" type="text">
+            <input id="name" name="name" type="text" required>
         </div>
         <div>
-            <label password="name">Password</label>
-            <input password="name" name="password" type="text">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
         </div>
-        <button type="submit">submit</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
